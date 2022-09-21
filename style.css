@@ -11,8 +11,6 @@
     padding-right: 10px;
     padding-top: 20px;
     background-color: #F0F1EF;
-
-
 }
 
 .welcome {
@@ -50,17 +48,16 @@
     background-color: #FFFFFF;
 }
 
-.grid2{
+.grid2 {
     width: 354px;
-    height: 550px;
+    height: 548px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 20px;
     background-color: #F0F1EF;
-
-
 }
-div{
+
+div {
     display: flex;
     align-items: center;
     font-size: 10px;
@@ -68,7 +65,7 @@ div{
     margin: 10px;
 }
 
-h2{
+h2 {
     margin-right: 150px;
     padding: 10px;
     font-family: sans-serif;
@@ -84,12 +81,26 @@ h2{
     font-size: 12px;
     font-family: sans-serif;
     color: white;
+    position: relative;
+    right: 45px;
 }
 
-.dataTable{
+.dataTable {
     background-color: white;
     border: #d0d3cd solid 1px;
     border-radius: 8px;
     margin-left: 5px;
     padding-left: 5px;
+}
+
+.imageMenu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 283px;
+    left: 140px;
+}
+
+.imageMenu>img {
+    padding: 13px;
 }
