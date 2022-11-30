@@ -1,73 +1,222 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Table</title>
+    <title>Data Table Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section class="grid1">
-        <div class="welcome">
-            <img src="Image/fotoPerfil (2).png" alt=" Foto de Perfil">
-            <p class="texto1">Welcome back, <br> <b>Sweet Girl </b></p>
-            <p class="numero1">99+</p>
-            <img class="image" src="Image/configuracoes .png" alt="Icone de Configurações">
-        </div>
-    </section>
+    <div style="width: 30%; height: 100vh; float: left">
+        <section class="header">
+            <div id="div1" class="header__textOne">
+                <img src="Image/fotoPerfil (2).png" alt=" Foto de Perfil">
+                <p class="header__textTwo">Welcome back, <br> <b>Sweet Girl</b>
+                <p class="header__numberOne">99+</p>
+                <img class="header__settingsButtom" src="Image/gear.png" alt="Botão de Configurações">
+            </div>
+        </section>
 
-    <section class="grid2">
+        <section class="menu">
+            <div id="div1" class="menu__items">
+                <img src="Image/loupe.png" alt="Icone de pesquisa">
+                <h2>Search</h2>
+            </div>
 
-        <div class="dataTable">
-            <img src="Image/tabela.JPG" alt="Icone de pesquisa">
-            <h2>Data Table</h2>
+            <div id="div1" class="menu__items">
+                <img src="Image/grid.png" alt="Icone de grade">
+                <h2>Data Table</h2>
+            </div>
 
-        </div>
+            <div id="div1" class="menu__items">
+                <img src="Image/layout.png" alt="Icone kanban">
+                <h2>Kanban</h2>
 
-        <div>
-            <img src="Image/kanban.JPG" alt="Icone kanban">
-            <h2>Kanban</h2>
+            </div>
 
-        </div>
+            <div id="div1" class="menu__items">
+                <img src="Image/planilha.png" alt="Icone analytics">
+                <h2>Analytics</h2>
 
-        <div>
-            <img src="Image/analytics.JPG" alt="Icone analytics">
-            <h2>Analytics</h2>
+            </div>
 
-        </div>
+            <div id="div1" class="menu__items">
+                <img src="Image/calendar.png" alt="Icone de calendario">
+                <h2>Calendar</h2>
+                <p class="menu__numberTwo">14+</p>
+            </div>
 
-        <div>
-            <img src="Image/calendario.JPG" alt="Icone de calendario">
-            <h2>Calendar</h2>
-            <p class="numero2">14+</p>
+            <div id="div1" class="menu__items">
+                <img src="Image/messenger.png" alt="Icone de mensagem">
+                <h2>Messenger</h2>
+            </div>
 
-        </div>
+            <div id="div1" class="menu__items">
+                <img src="Image/crypto.png" alt="Icone Crypto">
+                <h2>Crypto</h2>
+            </div>
 
-        <div>
-            <img src="Image/messenger.JPG" alt="Icone de mensagem">
-            <h2>Messenger</h2>
+            <div id="div1" class="menu__image">
+                <img src="Image/menu.png" alt="">
+                <img src="Image/menu.png" alt="">
+                <img src="Image/menu.png" alt="">
+                <img src="Image/menu.png" alt="">
+                <img src="Image/menu.png" alt="">
+                <img src="Image/menu.png" alt="">
+            </div>
 
-        </div>
+            <div id="div1" class="menu__items">
+                <img src="Image/messenger.png" alt="Icone de mensagem">
+                <h2>Support</h2>
+            </div>
 
-        <div>
-            <img src="Image/crypto.JPG" alt="Icone Crypto">
-            <h2>Crypto</h2>
+            <div id="div1" class="menu__items">
+                <img src="Image/sair.png" alt="Icone">
+                <h2>Sign Out</h2>
+            </div>
 
-        </div>
+        </section>
+    </div>
 
-        <div class="imageMenu">
-            <img src="Image/menu1.JPG" alt="">
-            <img src="Image/menu2.JPG" alt="">
-            <img src="Image/menu2.JPG" alt="">
-            <img src="Image/menu2.JPG" alt="">
-            <img src="Image/menu2.JPG" alt="">
-            <img src="Image/menu2.JPG" alt="">
-        </div>
+    <div style="width: 70%; height: 100vh; float: left">
+        <section class="headerTwo">
+            <div class="headerTwo__teste">
+                <h1>Data Table <img src="Image/prancheta (3).png" alt=""></h1>
+                <input class= headerTwo__inputSearch type="text" id="busca" name="search" placeholder="Search">
+                <input class=headerTwo__button type="button" value="Add Person">
+                <img src="Image/ferramenta-lapis (1).png" class="headerTwo_iconLapis" alt="icone de lapis">
+            </div>
+            
+            <div class="infoCenter">
+                <div class="infoCenter__one">
+                    <h1><b>Employees</b> </h1>
+                    <p>18 results found <img src="Image/legal.png" alt=""></p>
+                </div>
 
-    </section>
+                <div class="infoCenter__two">
+                    <img src="Image/filtro (1).png" alt="">
+                </div>
+
+                <div class="infoCenter__three">
+                    <img src="Image/troca (1).png" alt="">
+                    <p>Sort: <b>Chronological</b></p>
+                </div>
+
+                <div class="infoCenter__four">
+                    <img src="Image/seta-esquerda.png" alt="">
+                    <p> <b>August,</b> 2021</p>
+                    <img src="Image/pular-faixa.png" alt="">
+                </div>
+            </div>
+
+            <div class="budget">
+                <div>
+                    <p> Total Budget <img src="Image/triangulo (1).png" alt=""></p>
+                    <h1><b>$74,994.00</b></h1>
+                </div>
+
+                <div>
+                    <p>Monthly Budget <img src="Image/triangulo (4).png" alt=""></p>
+                    <h1><b>$12,315.89</b></h1>
+                </div>
+
+                <div>
+                    <p>Weekly Budget <img src="Image/triangulo (1).png" alt=""></p>
+                    <h1><b>$3,476.15</b></h1>
+                </div>
+
+                <div>
+                    <p>Today Budget <img src="Image/triangulo (3).png" alt=""></p>
+                    <h1><b>$777.00</b></h1>
+                </div>
+            </div>
+
+            <div class="list">
+                <div class="list__one">
+                    <p class="paragrafo">Name <img src="Image/seta-para-baixo.png" alt=""></p>
+                    <p class="paragrafo">Email <img src="Image/pra-cima.png" alt=""></p>
+                    <p class="paragrafo">Status <img src="Image/seta-para-baixo.png" alt=""></p>
+                    <p class="paragrafo"> <b>Role </b><img src="Image/pra-cima.png" alt=""></p>
+                </div>      
+                
+                <div class="list__two">
+                    <p> <img src="Image/Roman.png" alt=""> Roman Belic</p>
+                    <p> purchaseuikits@setproduct.com</p>
+                    <p> <span style="color: blue;">Free </span> </p>
+                    <p> Art Director <img src="Image/legal.png" alt=""></p>
+                </div> 
+
+                <div class="list__three">
+                    <p> <img src="Image/Maria.png" alt=""> Sarah Smith</p>
+                    <p> sk8er@palacecrew.net</p>
+                    <p> <span style="color: #f00;">busy </span></p>
+                    <p>  Ux Writer</p>
+                </div> 
+
+                <div class="list__two">
+                    <p> <img src="Image/Eleanor.png" alt=""> Eleanor Pena</p>
+                    <p> lookatmyhat@mail.me</p>
+                    <p> Working </p>
+                    <p>  Ux Engineer</p>
+                </div> 
+
+                <div class="list__three">
+                    <p> <img src="Image/Roman.png" alt=""> Rachel Rochards</p>
+                    <p> rondondon@nfs.org</p>
+                    <p> <span style="color: rgb(95, 95, 187);">Best Friendy <img src="Image/apaixonado.png" alt=""> </span></p>
+                    <p>  UI Master</p>
+                </div> 
+
+                <div class="list__two">
+                    <p> <img src="Image/Maria.png" alt=""> Arlene McCoy</p>
+                    <p> arienemccoyindagame@heyhey.com</p>
+                    <p> Working</p>
+                    <p> Product Manager</p>
+                </div> 
+
+                <div class="list__three">
+                    <p> <img src="Image/Eleanor p.png" alt=""> Courtney Henry</p>
+                    <p> henry96@mail.com</p>
+                    <p> <span style="color: orange;">On Vacation </span> </p>
+                    <p>  HR Assistant</p>
+                </div> 
+
+                <div class="list__two">
+                    <p> <img src="Image/Guy.png" alt=""> Guy Hawkins</p>
+                    <p> thatguy@fromalaska.us</p>
+                    <p> <span style="color: #f00;">busy </span></p>
+                    <p> The Boss</p>
+                </div> 
+
+                <div class="list__three">
+                    <p> <img src="Image/Devon.png" alt=""> Davon Lane</p>
+                    <p> devon_dfq@eyefind.info</p>
+                    <p> <span style="color: blue;">busy </span></p>
+                    <p>  Full-Stack Developer</p>
+                </div> 
+
+                <div class="list__two">
+                    <p> <img src="Image/Eleanor p.png" alt=""> Eleanor P. Junior</p>
+                    <p> epj2022@mail.com</p>
+                    <p> Working </p>
+                    <p> Ux Engineer</p>
+                </div> 
+
+                <div class="list__three">
+                    <p> <img src="Image/Maria.png" alt=""> Maria Bruno</p>
+                    <p> bruno987@cast.co</p>
+                    <p> <span style="color: #f00;">busy </span></p>
+                    <p> Manager</p>
+                </div> 
+
+            </div>
+
+        </section>
+    </div>
+
 
 </body>
 
